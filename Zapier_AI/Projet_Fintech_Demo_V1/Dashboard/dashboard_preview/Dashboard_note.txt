@@ -1,0 +1,9 @@
+# Fintech Incident Dashboard
+
+Ce tableau de bord permet :
+- de visualiser les incidents par mois,
+- de filtrer par type d'incident,
+- de suivre les tendances,
+- d'analyser les pics d'erreurs techniques ou API.
+
+Le dashboard se met automatiquement à jour via le pipeline Zapier + IA.

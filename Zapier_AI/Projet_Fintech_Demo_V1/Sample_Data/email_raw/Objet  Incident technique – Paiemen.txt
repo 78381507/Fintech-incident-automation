@@ -1,0 +1,11 @@
+Objet : Incident technique – Paiement refusé
+
+Bonjour équipe,
+
+Depuis 10h14 UTC, plusieurs utilisateurs signalent des paiements refusés alors que les cartes sont valides.
+Le système renvoie une erreur "payment_failed" en boucle.
+
+Pouvez-vous investiguer ?
+
+Support client
+Fintech Demo

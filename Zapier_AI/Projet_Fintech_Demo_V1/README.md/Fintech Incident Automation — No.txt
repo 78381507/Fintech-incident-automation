@@ -1,0 +1,94 @@
+Fintech Incident Automation – Pipeline IA + No-Code
+
+Ce projet montre comment construire un pipeline complet d’automatisation pour centraliser, analyser et visualiser des incidents techniques dans un contexte fintech.
+
+L’objectif : transformer des emails bruts en données exploitables, puis générer un tableau de bord mis à jour automatiquement.
+
+
+Architecture du pipeline
+
+1/Gmail capte les emails contenant des incidents.
+
+2/Zapier extrait le contenu et envoie le texte à ChatGPT pour structure JSON.
+
+3/Un script JavaScript nettoie et stabilise le JSON.
+
+4/Claude génère un résumé, une criticité et une action recommandée.
+
+5/Google Sheets stocke chaque ligne (base de données légère).
+
+6/Slack reçoit une alerte en temps réel.
+
+7/Excel consolide les données dans un tableau de bord.
+
+Le diagramme est disponible dans /Diagram/pipeline_overview.png.
+
+
+Contenu du repository
+Zapier_AI/
+│
+├── Zapier/
+│   └── clean_incident.js
+│
+├── Sample_Data/
+│   ├── email_raw.txt
+│   ├── structured_output.json
+│   └── sheet_output_example.csv
+│
+├── Dashboard/
+│   ├── Fintech_Incident_Dashboard.xlsx
+│   ├── Fintech_Incident_Dashboard.pdf
+│   ├── dashboard_preview.png
+│   └── slack_notification.png
+│
+└── Diagram/
+    └── pipeline_overview.png
+
+Résultat
+
+*Le tableau de bord Excel permet de suivre :
+
+*l’évolution du volume d’incidents,
+
+*la répartition par type,
+
+*les pics mensuels,
+
+*les indicateurs critiques.
+
+Il se met à jour automatiquement à chaque nouvel email d’incident traité par le pipeline.
+
+
+Compétences démontrées
+
+*Automatisation de flux no-code (Zapier).
+
+*Extraction et structuration de texte via IA (ChatGPT).
+
+*Analyse résumée via IA (Claude).
+
+*Nettoyage et parsing JSON (JavaScript).
+
+*Stockage de données structurées (Google Sheets).
+
+*Reporting automatisé (Excel).
+
+*Alerte en temps réel (Slack).
+
+*Documentation technique et structuration d’un projet.
+
+
+Améliorations possibles
+
+*Passage du stockage Sheets vers une base SQL.
+
+*Tableau de bord temps réel dans Looker Studio.
+
+*Classification automatique des incidents.
+
+*Détection d’anomalies simple.
+
+Instructions
+
+Créer un pipeline fonctionnel, stable, structuré et documenté.
+Capable d’être compris et réutilisé par un recruteur ou une équipe data.

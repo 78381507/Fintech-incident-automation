@@ -1,0 +1,9 @@
+{
+  "objet": "Incident technique – Paiement refusé",
+  "resume": "Plusieurs utilisateurs rencontrent un refus de paiement depuis 10h14 UTC. Le système renvoie payment_failed.",
+  "categorie": "Paiement",
+  "severite": "élevée",
+  "timestamp": "2025-02-16T10:14:00Z",
+  "action_recommandee": "Vérifier le service de paiement, les logs API et le partenaire de paiement.",
+  "source": "email_support"
+}
