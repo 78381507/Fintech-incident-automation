@@ -58,7 +58,7 @@ Ce projet démontre un pipeline complet d'automatisation pour la gestion d'incid
 ## 📸 Screenshots
 
 ### Dashboard Looker Studio
-![Dashboard](./Dashboard/Dashboard_Preview.png)
+https://github.com/78381507/Fintech-incident-automation/blob/main/Zapier_AI/Projet_Fintech_Demo_V1/Dashboard/dashboard_preview/Dashboard_Preview.png
 
 ### Workflow Zapier
 ![Zapier Workflow](./Diagram/Zapier_Fintech_Incidents.jpeg)
