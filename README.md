@@ -1,1 +1,0 @@
-# Fintech Incident Automation
