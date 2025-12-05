@@ -134,14 +134,8 @@ MIT License - voir [LICENSE](./LICENSE)
 ## 👤 Auteur
 
 **François TILKIN**
-- 🔗 [LinkedIn](https://linkedin.com/in/francoistilkin)
+- 🔗 www.linkedin.com/in/françois-tilkin-1667b138a
 - 📧 Contact : tilkinanalytics@gmail.com
-
----
-
-## 🙏 Remerciements
-
-Projet développé dans le cadre de la formation IBM Data Analyst Professional Certificate.
 
 ---
 
