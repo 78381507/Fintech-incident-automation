@@ -1,0 +1,42 @@
+## **2. .gitignore**
+```
+# Credentials & Secrets
+*.env
+.env.local
+credentials.json
+config.json
+secrets/
+
+# API Keys
+*_api_key*
+*_token*
+*_secret*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+```
