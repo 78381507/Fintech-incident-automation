@@ -1,0 +1,149 @@
+# 🚨 Fintech Incident Automation
+
+Système d'automatisation intelligent pour la détection, l'analyse et le reporting d'incidents fintech en temps réel.
+
+![Pipeline Status](https://img.shields.io/badge/pipeline-automated-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Zapier](https://img.shields.io/badge/Zapier-Automation-orange)
+![AI Powered](https://img.shields.io/badge/AI-Claude%20%2B%20ChatGPT-purple)
+
+## 📊 Aperçu du Projet
+
+Ce projet démontre un pipeline complet d'automatisation pour la gestion d'incidents fintech, de la détection initiale jusqu'au reporting via dashboard interactif.
+
+**🎯 Cas d'usage** : Centraliser, analyser et visualiser automatiquement les incidents techniques dans un système de paiement fintech.
+
+### ✨ Fonctionnalités principales
+
+- 📧 **Détection automatique** : Capture des emails d'incidents en temps réel
+- 🤖 **Analyse par IA** : Extraction et structuration des données via ChatGPT + Claude
+- 📊 **Dashboard interactif** : Visualisation en temps réel sur Looker Studio
+- 💬 **Alertes Slack** : Notifications instantanées aux équipes techniques
+- 📈 **Reporting automatique** : Stockage et historisation dans Google Sheets
+
+---
+
+## 🏗️ Architecture
+```
+📧 Gmail (Trigger)
+    ↓
+🤖 ChatGPT (Extraction JSON)
+    ↓
+🧠 Claude (Analyse & Résumé)
+    ↓
+🔄 Looping (Traitement en masse)
+    ↓
+├─→ 📊 Google Sheets (Stockage)
+├─→ 💬 Slack (Alertes équipes)
+└─→ 📈 Looker Studio (Dashboard)
+```
+
+**Voir le détail dans** : [ARCHITECTURE.md](./ARCHITECTURE.md)
+
+---
+
+## 🚀 Technologies Utilisées
+
+| Catégorie | Technologies |
+|-----------|-------------|
+| **Automatisation** | Zapier |
+| **IA & NLP** | Claude (Anthropic), ChatGPT (OpenAI) |
+| **Stockage** | Google Sheets |
+| **Notifications** | Slack API |
+| **Visualisation** | Looker Studio |
+| **Code** | JavaScript (Node.js) |
+
+---
+
+## 📸 Screenshots
+
+### Dashboard Looker Studio
+![Dashboard](./Dashboard/Dashboard_Preview.png)
+
+### Workflow Zapier
+![Zapier Workflow](./Diagram/Zapier_Fintech_Incidents.jpeg)
+
+### Alertes Slack
+![Slack Notifications](./Dashboard/Slack_Incidents_Fintech.png)
+
+---
+
+## 📂 Structure du Projet
+```
+Fintech-incident-automation/
+├── Dashboard/              # Visualisations et dashboard
+│   ├── dashboard_preview.png
+│   ├── Dashboard_note.txt
+│   └── Fintech_Incident_dashboard.pdf
+├── Diagram/               # Schémas d'architecture
+│   ├── Zapier_Fintech_Incidents.jpeg
+│   └── Zapier_Loop_Fintech.jpeg
+├── Sample_Data/           # Exemples de données
+│   ├── email_raw/         # Emails bruts d'incidents
+│   ├── structured_output/ # JSON structuré après IA
+│   └── sheet_output_example/ # Données Google Sheets
+├── Zapier/                # Configuration Zapier
+│   └── javascript/        # Scripts de parsing
+│       └── clean_incident.js
+├── ARCHITECTURE.md        # Documentation technique
+└── README.md             # Ce fichier
+```
+
+---
+
+## 🎯 Résultats
+
+- ⚡ **Temps de traitement** : < 2 minutes par incident
+- 📊 **Taux de précision** : 95% sur l'extraction des données
+- 🔄 **Traitement en masse** : 10 incidents simultanés
+- 📈 **Dashboard** : Mise à jour en temps réel
+
+---
+
+## 📖 Documentation
+
+- [Architecture détaillée](./ARCHITECTURE.md)
+- [Dictionnaire des données](./docs/DATA_DICTIONARY.md)
+- [Notes du dashboard](./Dashboard/Dashboard_note.txt)
+
+---
+
+## 🎓 Compétences Démontrées
+
+- ✅ Pipeline d'automatisation end-to-end
+- ✅ Intégration d'IA (LLMs) dans workflows métier
+- ✅ Parsing et structuration de données non-structurées
+- ✅ Visualisation de données interactives
+- ✅ Gestion d'alertes en temps réel
+- ✅ Documentation technique professionnelle
+
+---
+
+## 📝 Note Importante
+
+**⚠️ Données simulées** : Ce projet utilise des incidents fictifs générés automatiquement pour des fins de démonstration. Aucune donnée réelle de production n'est utilisée.
+
+---
+
+## 📄 Licence
+
+MIT License - voir [LICENSE](./LICENSE)
+
+---
+
+## 👤 Auteur
+
+**François TILKIN**
+- 🔗 [LinkedIn](https://linkedin.com/in/francoistilkin)
+- 📧 Contact : tilkinanalytics@gmail.com
+
+---
+
+## 🙏 Remerciements
+
+Projet développé dans le cadre de la formation IBM Data Analyst Professional Certificate.
+
+---
+
+**⭐ Si ce projet vous intéresse, n'hésitez pas à me contacter !**
+```
