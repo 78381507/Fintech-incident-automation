@@ -61,10 +61,10 @@ Ce projet démontre un pipeline complet d'automatisation pour la gestion d'incid
 https://github.com/78381507/Fintech-incident-automation/blob/main/Zapier_AI/Projet_Fintech_Demo_V1/Dashboard/dashboard_preview/Dashboard_Preview.png
 
 ### Workflow Zapier
-![Zapier Workflow](./Diagram/Zapier_Fintech_Incidents.jpeg)
+
 
 ### Alertes Slack
-![Slack Notifications](./Dashboard/Slack_Incidents_Fintech.png)
+
 
 ---
 
