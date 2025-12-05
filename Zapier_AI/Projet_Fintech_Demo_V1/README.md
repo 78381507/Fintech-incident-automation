@@ -104,7 +104,7 @@ Fintech-incident-automation/
 
 - [Architecture détaillée](./ARCHITECTURE.md)
 - [Dictionnaire des données](./docs/DATA_DICTIONARY.md)
-- [Notes du dashboard](./Dashboard/Dashboard_note.txt)
+- [Notes du dashboard]https://github.com/78381507/Fintech-incident-automation/blob/main/Zapier_AI/Projet_Fintech_Demo_V1/Dashboard/dashboard_preview/Dashboard_note.txt
 
 ---
 
